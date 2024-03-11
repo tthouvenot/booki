@@ -1,11 +1,16 @@
 // Reset CSS
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import '../node_modules/normalize.css/normalize';
+
+//Colors
+$color-primary: #0065FC;
+$color-primary-light: #DEEBFF;
+$color-primary-dark: #f2f2f2;
+
+h1 {
+  color: $color-primary;
 }
 
-h1{
-    color: cadetblue;
+h2 {
+  color: $color-primary-light;
 }

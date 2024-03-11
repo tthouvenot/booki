@@ -3,6 +3,8 @@
 *.sass.map
 *.scss.map
 
-package.json
+package*.json
 
-./css/*
+/css
+
+/node_modules
